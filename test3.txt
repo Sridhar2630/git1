@@ -1,0 +1,21 @@
+public class Polyndrom {
+public static void main (String[] args){
+int n, a, i =0; j=0;
+Scanner an = new Scanner(system.in);
+system.out.Println("Ente the No);
+n=an.nextInt();
+a=n;
+While (a>0){
+    i=a%10;
+    j=(j*10)+i;
+    a=a/10;
+    }
+if (n==j){     
+    Sytem.out.Println("Palindrom");
+    }
+    else{
+        Sytem.out.Println("Not Palindrom")
+    }
+}
+
+}
